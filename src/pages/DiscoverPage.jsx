@@ -64,7 +64,7 @@ export default function DiscoverPage() {
                     <aside className="w-full lg:w-56 bg-white p-4 rounded-xl shadow h-fit">
                         <h2 className="font-bold mb-4">Categories</h2>
 
-                        <div className="flex flex-wrap gap-2">
+                        <div className="flex items-center gap-2 w-auto lg:w-full px-3 py-2 rounded-xl text-sm transition">
                             {categories?.map((cat) => (
                                 <button
                                     key={cat.idCategory}
