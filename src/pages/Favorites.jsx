@@ -38,7 +38,7 @@ export default function Favorites() {
             >
               <div className="relative bg-white w-64 rounded-xl shadow-md overflow-hidden hover:scale-105 transition flex flex-col">
 
-                {/* زر الحذف من المفضلة */}
+                
                 <button
                   onClick={(e) => {
                     e.preventDefault();

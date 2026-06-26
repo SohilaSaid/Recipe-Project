@@ -58,10 +58,10 @@ export default function DiscoverPage() {
 
 
             <div className="min-h-screen p-8">
-                <div className="max-w-7xl mx-auto flex gap-8">
+                <div className="max-w-7xl mx-auto flex flex-col lg:flex-row gap-8">
 
-                    {/* Sidebar */}
-                    <aside className="w-56 bg-white p-4 rounded-xl shadow h-fit">
+                    
+                    <aside className="w-full lg:w-56 bg-white p-4 rounded-xl shadow h-fit">
                         <h2 className="font-bold mb-4">Categories</h2>
 
                         <div className="flex flex-wrap gap-2">
